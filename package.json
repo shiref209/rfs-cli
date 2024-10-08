@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "start": "node index.js",
     "prepublishOnly": "npm test"
   },
@@ -26,7 +26,10 @@
   "dependencies": {
     "commander": "^9.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "tmp": "^0.2.1"
+  },
   "peerDependencies": {
     "react": "*"
   },
@@ -40,5 +43,8 @@
   "bugs": {
     "url": "https://github.com/shiref209/rfs-cli/issues"
   },
-  "homepage": "https://github.com/shiref209/rfs-cli#readme"
+  "homepage": "https://github.com/shiref209/rfs-cli#readme",
+  "jest": {
+    "transform": {}
+  }
 }
