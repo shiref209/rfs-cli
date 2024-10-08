@@ -1,6 +1,6 @@
-# RFS-CLI (React File Structure CLI)
+# RFS-CLI (React Folder Structure CLI)
 
-RFS-CLI is a command-line tool designed to quickly generate a standardized file structure for React projects. It creates a consistent folder and file organization for pages, higher-order components (HOCs), and regular components.
+RFS-CLI is a command-line tool designed to quickly generate a standardized folder structure for React projects. It creates a consistent folder and file organization for pages, higher-order components (HOCs), and regular components.
 
 ## Features
 

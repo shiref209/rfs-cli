@@ -1,7 +1,7 @@
 {
   "name": "rfs-cli",
   "version": "1.0.0",
-  "description": "React File Structure CLI tool",
+  "description": "React Folder Structure CLI tool",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "keywords": [
     "react",
     "cli",
-    "file structure"
+    "folder structure"
   ],
   "author": "Sherif Hamam <shiref.hamam2@gmail.com>",
   "license": "ISC",
