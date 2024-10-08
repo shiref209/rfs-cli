@@ -5,11 +5,17 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prepublishOnly": "npm test"
   },
   "bin": {
-    "rfs-cli": "./index.js"
+    "rfs": "./index.js"
   },
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
   "keywords": [
     "react",
     "cli",
