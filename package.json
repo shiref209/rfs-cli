@@ -1,0 +1,38 @@
+{
+  "name": "rfs-cli",
+  "version": "1.0.0",
+  "description": "React File Structure CLI tool",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rfs-cli": "./index.js"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "file structure"
+  ],
+  "author": "Sherif Hamam <shiref.hamam2@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiref209/rfs-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shiref209/rfs-cli/issues"
+  },
+  "homepage": "https://github.com/shiref209/rfs-cli#readme"
+}
