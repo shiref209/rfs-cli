@@ -72,7 +72,7 @@ async function createProjectStructure(name, projectType) {
       type: "Hoc",
     },
     components: {
-      extension: ".content.tsx",
+      extension: "Content.component.tsx",
       files: ["index.ts"],
       type: "Content",
     },
@@ -91,9 +91,9 @@ async function createProjectStructure(name, projectType) {
       const mainFilePath = path.join(dirPath, `${refinedName}${extension}`);
       const mainFileContent = `import React from 'react';
 
-interface ${refinedNameUpper}${type}Props {}
+interface Props {}
 
-export const ${refinedNameUpper}${type}: React.FC<${refinedNameUpper}${type}Props> = () => {
+export const ${refinedNameUpper}${type}: React.FC<Props> = () => {
   return <></>;
 };`;
       fs.writeFileSync(mainFilePath, mainFileContent);
