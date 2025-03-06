@@ -24,7 +24,8 @@
   "author": "Sherif Hamam <shiref.hamam2@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "commander": "^9.4.1"
+    "commander": "^9.4.1",
+    "inquirer": "^12.4.2"
   },
   "devDependencies": {
     "jest": "^29.5.0",
